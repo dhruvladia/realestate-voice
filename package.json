@@ -1,0 +1,19 @@
+{
+  "name": "red-voice-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "start": "node ./node_modules/vite/bin/vite.js preview --host 0.0.0.0 --port $PORT"
+  },
+  "dependencies": {
+    "@vapi-ai/web": "^1.4.2",
+    "vite": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
